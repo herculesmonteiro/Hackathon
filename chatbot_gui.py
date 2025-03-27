@@ -1,6 +1,6 @@
 # chatbot_gui.py - Interface do usuário
 # Autor: Hercules Monteiro
-# Data: 26/03/2025
+# Data: 27/03/2025
 # Versão: 1.0
 # ============================================================================
 # 1. IMPORTAÇÕES NECESSÁRIAS
@@ -34,6 +34,7 @@ DEEPSEEK_API_KEY = "colocar sua chave aqui"
 BASE_CHROMA_PERSIST_DIR = "C:/colecoes"
 PDF_DIR = "C:/uploads"
 FOTOS_DIR = os.path.join(os.getcwd(), "C:/uploads/2025")
+
 
 class ChatbotGUI(tk.Tk):
     def __init__(self):

@@ -1,10 +1,10 @@
 ![alt text](image.png)
 
-## Overview
+## System for searching for missing people
 My inspiration for this project was learning about the power of technology to help many families searching for their missing relatives. The system uses natural language processing and machine learning techniques to interact with users to process various types of documents that can be used to find missing people. The system is capable of handling PDFs, Word documents, Excel spreadsheets, photos, audios, and plain text files to create a more comprehensive search.
 
 ## System Architecture
-The system is composed of several interconnected modules, each responsible for a specific functionality. The modular architecture allows for easy maintenance, scalability, and extensibility of the system.
+I used GitHub Copilot integrated with my Microsoft Visual Code IDE at every stage of my project. It helped me a lot in generating initial models for machine learning and natural language algorithms based on simple descriptions. I significantly improved the quality of my code with intelligent suggestions to avoid common mistakes. Copilot helped me improve the quality of technical documentation. In short, GitHub Copilot integrated with Microsoft Visual Code provided a powerful combination of automation, efficiency, and contextual support that transformed my development process from what could have taken months to a few days.
 
 ### Processing Flow
 1. The user initiates a query through the graphical interface (ChatbotGUI).
@@ -16,12 +16,11 @@ The system is composed of several interconnected modules, each responsible for a
 7. Relevant snippets are retrieved and refined.
 8. An answer is generated using the chosen language model (Local, OpenAI, or Deepseek).
 9. The answer is displayed to the user, along with links to the relevant documents. 
-10. The image search module on the website https://www.desaparecidos.pr.gov.br/desaparecidos/ was successfully implemented.
 
 
 ## Project Structure
 ```
-Missing_Project/
+System for searching for missing people/
 │
 ├── main.py # Main entry point
 ├── chatbot_gui.py # Chatbot graphical interface
@@ -79,6 +78,7 @@ Missing_Project/
 - **text_utils.py**: Plain text file processing and basic parsing.
 
 ## Core Technologies
+- **GitHub Copilot**: Artificial intelligence tool acting as a coding assistant integrated into VS code IDE.
 - **Python**: Core programming language.
 - **Tkinter**: For the graphical user interface.
 - **SentenceTransformer**: Text embedding generation.
