@@ -31,9 +31,9 @@ OPENAI_API_KEY = "colocar sua chave aqui"
 DEEPSEEK_API_KEY = "colocar sua chave aqui"
 
 # Diretórios principais do projeto.
-BASE_CHROMA_PERSIST_DIR = "C:/GenAI/GenAI_v11/colecoes"
-PDF_DIR = "C:/GenAI/GenAI_v11/uploads"
-FOTOS_DIR = os.path.join(os.getcwd(), "C:/GenAI/GenAI_v11/uploads/2025")
+BASE_CHROMA_PERSIST_DIR = "C:/colecoes"
+PDF_DIR = "C:/uploads"
+FOTOS_DIR = os.path.join(os.getcwd(), "C:/uploads/2025")
 
 class ChatbotGUI(tk.Tk):
     def __init__(self):

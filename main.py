@@ -1,4 +1,4 @@
-# main.py - Plataforma busca pessoas desaparecidas  
+# main.py - Plataforma para busca de pessoas desaparecidas  
 # Autor: Hercules Monteiro
 # Data: 26/03/2025
 # Versão: 1.0
@@ -78,5 +78,5 @@ def criar_diretorios_essenciais():
 
 if __name__ == "__main__":
     # Inicia o programa principal GenAI.
-    logger.info("[main] Iniciando o programa GenAI.")
+    logger.info("[main] Iniciando o programa.")
     main()

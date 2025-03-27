@@ -2,7 +2,6 @@
 # Autor: Hercules Monteiro
 # Data: 26/03/2025
 # Versão: 1.0
-
 # ============================================================================
 # 1. IMPORTAÇÕES NECESSÁRIAS
 # ============================================================================
@@ -27,7 +26,7 @@ from urllib.parse import urljoin
 logger = logging.getLogger(__name__)
 
 # Configuração do caminho para o executável do Tesseract OCR
-pytesseract.pytesseract.tesseract_cmd = r'C:\GenAI\GenAI_v11\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Tesseract-OCR\tesseract.exe'
 
 # Carregamento dos modelos de processamento de imagem
 image_captioning_model = VisionEncoderDecoderModel.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
